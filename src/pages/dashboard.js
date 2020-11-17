@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { Router } from '@reach/router';
 import { navigate } from 'gatsby';
-import Layout from '../components/Layout';
-import Profile from '../components/Profile';
+import Layout from '../components/layout';
+import Profile from '../components/lrofile';
 import RouteBase from '../components/route-base';
 import RouteSecret from '../components/route-secret';
 import RouteLogin from '../components/route-login';
