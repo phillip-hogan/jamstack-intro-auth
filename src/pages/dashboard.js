@@ -12,7 +12,7 @@ const Dashboard = ({ location }) => {
     if (location.pathname.match(/^\/dashboard\/?$/)) {
       navigate('/dashboard/login', { replace: true });
     }
-  }, []);
+  }, [location.pathname]);
 
   return (
     <Layout>
