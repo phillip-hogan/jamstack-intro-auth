@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Router } from '@reach/router';
-import PrivateRoute from '../components/profile';
+import PrivateRoute from '../components/private-route';
 import { navigate } from 'gatsby';
 import Layout from '../components/layout';
 import Profile from '../components/profile';
